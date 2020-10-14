@@ -36,7 +36,8 @@ Imports: stringi,
     scales,
     grDevices,
     utils
-Suggests: magick,
+Suggests: 
+    magick,
     svglite,
     knitr,
     rmarkdown,
@@ -46,7 +47,8 @@ Suggests: magick,
     covr,
     transformr,
     av,
-    gifski
+    gifski,
+    ragg
 Collate:
     'aaa.R'
     'anim_save.R'
